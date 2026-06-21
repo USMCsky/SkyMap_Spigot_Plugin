@@ -19,20 +19,6 @@ Great for survival and exploration servers that want straightforward navigation 
 - **Minecraft/Spigot API:** `1.21` (as defined in `plugin.yml`)
 - **Java:** 21
 
-## Player Instructions
-1. Get the SkyMap item:
-   ```text
-   /skymap give
-   ```
-2. Hide compass display behavior:
-   ```text
-   /skymap hide
-   ```
-3. Toggle/use offhand behavior:
-   ```text
-   /skymap offhand
-   ```
-
 ### Commands (Players)
 - `/skymap give`  
   Give yourself the SkyMap item.
@@ -41,22 +27,9 @@ Great for survival and exploration servers that want straightforward navigation 
 - `/skymap offhand`  
   Toggle/use offhand behavior.
 
-## Permissions
-- `skymap.use`  
-  Allows usage of SkyMap commands.  
-  **Default:** `true`
-
-## Admin Notes
-- Main command: `skymap`
-- Data is stored in `plugins/SkyMap/`.
-
 ## Troubleshooting
 - **"Only players can use this command."**
   - Run commands in-game as a player (not from the server console).
 
 - **Command not working**
   - Currently supported commands are `/skymap give`, `/skymap hide`, and `/skymap offhand`.
-
-- **Compass not showing or updating**
-  - Try `/skymap give` again.
-  - Use `/skymap hide` and `/skymap offhand` to reset behavior.
