@@ -23,7 +23,7 @@ Great for survival and exploration servers that want straightforward navigation 
 - `/skymap give`  
   Give yourself the SkyMap item.
 - `/skymap hide`  
-  Hide compass display behavior.
+  Hide map display if in offhand.
 - `/skymap offhand`  
   Toggle/use offhand behavior.
 
