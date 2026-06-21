@@ -1,0 +1,9 @@
+name: SkyMap
+version: '${version}'
+main: com.usmcsky.SkyMapPlugin
+api-version: '1.21'
+authors: [ USMCsky ]
+commands:
+  skymap:
+    description: Manage your SkyMap minimap item.
+    usage: /skymap <give|hide|offhand>
