@@ -6,61 +6,48 @@
 [![Repo Size](https://img.shields.io/github/repo-size/USMCsky/SkyMap_Spigot_Plugin)](https://github.com/USMCsky/SkyMap_Spigot_Plugin)
 [![Author](https://img.shields.io/badge/Author-USMCsky-00bcd4.svg)](https://github.com/USMCsky)
 
-A simple Spigot plugin that adds an intuitive compass system to help players explore and navigate your world.
-Perfect for survival and exploration servers where players want straightforward world navigation.
+A lightweight Spigot plugin that provides a handheld map and simple compass navigation for players.
+Great for survival and exploration servers that want straightforward navigation tools.
 
 ## Features
-- Simple compass navigation for players
+- Handheld map for player navigation
+- Simple compass guidance
 - Lightweight and easy to use
-- Spigot-only setup with no external dependencies
+- No external dependencies (Spigot only)
 
 ## Requirements
 - **Minecraft/Spigot API:** `1.21` (as defined in `plugin.yml`)
-- **Java:** 21 (recommended based on modern Spigot 1.21 runtime expectations)
+- **Java:** 21
 
 ## Player Instructions
-1. Get a compass item:
+1. Get the SkyMap item:
    ```text
    /skymap give
    ```
-2. Hide compass display:
+2. Hide compass display behavior:
    ```text
    /skymap hide
    ```
-3. Move compass to offhand behavior:
+3. Toggle/use offhand behavior:
    ```text
    /skymap offhand
    ```
 
 ### Commands (Players)
 - `/skymap give`  
-  Give yourself the SkyMap compass.
+  Give yourself the SkyMap item.
 - `/skymap hide`  
-  Hide the compass display behavior.
+  Hide compass display behavior.
 - `/skymap offhand`  
-  Toggle/use offhand compass behavior.
-
-### Compass Navigation
-- SkyMap provides simple directional guidance for everyday travel.
-- Compass behavior is lightweight and designed for regular gameplay.
-- Focused on basic navigation without extra systems.
+  Toggle/use offhand behavior.
 
 ## Permissions
 - `skymap.use`  
   Allows usage of SkyMap commands.  
   **Default:** `true`
 
-- `skymap.create`  
-  Allows creation of new maps.  
-  **Default:** `true`
-
-- `skymap.admin`  
-  Allows administrative map management.  
-  **Default:** `op`
-
 ## Admin Notes
 - Main command: `skymap`
-- Alias: `map`
 - Data is stored in `plugins/SkyMap/`.
 
 ## Troubleshooting
@@ -72,4 +59,4 @@ Perfect for survival and exploration servers where players want straightforward 
 
 - **Compass not showing or updating**
   - Try `/skymap give` again.
-  - Use `/skymap hide` and `/skymap offhand` to reset display behavior.
+  - Use `/skymap hide` and `/skymap offhand` to reset behavior.
